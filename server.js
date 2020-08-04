@@ -3,7 +3,7 @@ const dotenv = require("dotenv");
 dotenv.config({ path: "./config/config.env" });
 // 로그 찍어주는 로거다. 미들웨어 다. app.use에 추가시키는 것.
 const morgan = require("morgan");
-
+// 주석추가
 // 우리가 파일로 만든것은 항상, npm 패키지의 아래쪽에 위치
 const contacts = require("./routes/contacts");
 const users = require("./routes/users");
